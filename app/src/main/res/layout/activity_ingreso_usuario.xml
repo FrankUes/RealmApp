@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.frank.realmapp.IngresoUsuario">
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:text="@string/nombre"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNombre"/>
+
+    <TextView
+        android:id="@+id/tvApellido"
+        android:text="@string/apellido"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edtNombre"/>
+
+    <EditText
+        android:id="@+id/edtApellido"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvApellido"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:text="@string/email"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edtApellido"/>
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEmail"/>
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:text="@string/password"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/edtEmail"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/tvPassword"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:text="@string/guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/edtPassword"/>
+
+</RelativeLayout>
